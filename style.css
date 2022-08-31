@@ -1,0 +1,934 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Hind+Siliguri&family=Jost&family=Maven+Pro:wght@500&family=Montserrat:wght@400;600&family=Paytone+One&family=Poppins:wght@200;500&family=Righteous&family=Roboto:wght@400;700&family=Rubik+Burned&family=Russo+One&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #f8f8fa;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+    background: #4617fe;
+    padding: 20px;
+}
+#threeDot{
+    color: white;
+    display: none;
+    margin-right: 100px;
+}
+#rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#rightNav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.menu{
+    list-style: none;
+    color: white;
+    padding: 5px;
+}
+#rightNav ul a{
+    text-decoration: none;
+}
+#rightNav span{
+    color: white;
+}
+#logo{
+    width: 120px;
+    padding-top: 30px;
+}
+.sign{
+    color: #4617fe;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    margin: 0px;
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
+}
+
+/* section  */
+#sectionTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    background: #4617fe;
+    padding: 0px 0px 0px 190px;
+}
+#sectionTop h1{
+    font-size: 4rem;
+    color: white;
+    margin: 30px 0px 30px 0px;
+}
+#sectionTop hr{
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+#sectionTop p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#sectionBottom p{
+    font-weight: 600;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+#sectionBottom{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 30px 30px 50px 190px;
+}
+#section1 img{
+    width: 35vw;
+    position: absolute;
+    right: 0px;
+    top: 14vh;
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+/* section2 */
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+#section2 h2:nth-child(1){
+    margin-top: 50px;
+    padding-top: 0px;
+
+}
+.cardIcon{
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+.cardContainer{
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 200px;
+}
+.cardContainer:hover{
+    background: white;
+}
+.cardHead{
+    font-size: 1.5rem;
+    margin: 10px 0px 10px 0px;
+}
+.cardPera{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.next{
+    padding: 10px;
+    color: white;
+    background: #4617fe;
+    border-radius: 50%;
+}
+#section2Cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    padding: 50px;
+}
+
+/* section3 */
+#section3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#section3 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.see{
+    font-weight: 600;
+    color: #4617fe;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 85vw;
+    margin-bottom: 10px;
+}
+.see2{
+    display: none;
+}
+.section3CardImg{
+    width: 280px;
+    height: 320px;
+    image-orientation: from-image;
+    border-radius: 50px 0px 0px 10px;
+}
+.cardContainer2{
+    background: white;
+    display: flex;
+    border-radius: 50px 10px 10px 10px;
+    padding-right: 20px;
+}
+#section3Cards{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 50px;
+}
+.section3CardDetail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+}
+.date{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #4617fe;
+    font-size: 1rem;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.blogPera{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 300px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #dcdbdb;
+}
+.circleBorder{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.profileName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight:600 ;
+    margin-left: 20px;
+    
+}
+
+/* section4 */
+
+#section4{
+    background-color: #e9edff;
+    display: flex;
+}
+#section4Left{
+    padding: 50px 0px 0px 190px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#section4Left h3{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+#section4Pera{
+    margin: 20px 0px 30px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+#ques{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#btn3{
+    padding: 10px 30px 10px 30px;
+    background: #4617fe;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 10px 0px;
+    color: white;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+#lens{
+    width: 46vw;
+    border-radius: 250px 0px 0px 0px;
+}
+
+/* section5 */
+
+#section5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 600px;
+    padding: 100px;
+}
+#section5Head{
+    display: flex;
+    gap: 10px;
+}
+#section5 h3{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+#section5 h3:nth-child(2){
+    font-weight: 100;
+}
+
+#section5Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section5Right input{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 400px 20px 40px;
+    background: #e9edff;
+    border-radius: 40px;
+    border: none;
+    color: black;
+}
+#btn2{
+    padding: 10px 30px 10px 30px;
+    background: #4617fe;
+    border: none;
+    border-radius: 30px;
+    margin-left: -225px;
+    color: white;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+/* footer  */
+
+footer{
+    background: #4617fe;
+    padding: 100px 50px 100px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 680px;
+    align-items: center;
+}
+#leftFooter ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#leftFooter ul li{
+    list-style: none;
+    color: white;
+}
+#leftFooter ul p{
+    color: white;
+    margin-right: 15px;
+}
+#leftFooter ul div{
+    height: 15px;
+    width: 1px;
+    background-color: white;
+}
+#logo2{
+    margin-bottom: 30px;
+}
+#social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#social div{
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+
+    background: white;
+}
+#rightFooter{  
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px ;
+}
+#rightFooter svg{
+    height: 20px;
+    width: 20px;
+}
+#rightFooter svg path{
+    fill: #4617fe;
+}
+#rightFooter ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#rightFooter ul li{
+    list-style: none;
+    color: white;
+}
+#social div:hover{
+    background: rgb(225, 225, 225);
+}
+#rightFooter ul div{
+    height: 15px;
+    width: 1px;
+    background: white;
+}
+
+
+
+/* responsive */
+@media (max-width:1800px) {
+    #sectionTop h1{
+        font-size: 3rem;
+    }
+    header{
+        gap: 35vw;
+    }
+  
+}
+
+@media (max-width:1600px) {
+    header{
+        gap: 500px;
+    }
+    #sectionTop h1{
+        font-size: 2.5rem;
+    }
+    #section2 h2{
+        font-size: 2.5rem;
+    }
+    #section4Left h3{
+        font-size: 2.5rem;
+    }    
+    #sectionTop{
+        padding-left: 150px;
+    }
+    #sectionBottom p{
+        font-size: 1.2rem;
+    }
+    #sectionBottom{
+        gap: 50px;
+        padding: 20px 30px 20px 150px;
+    }
+    #section4Pera{
+        font-size: 0.8rem;
+    }
+    #section4Left{
+        padding: 50px 0px 0px 150px;
+    }
+    
+    #section1 img{
+        
+        top: 20vh;
+    }
+    #section3 h3{
+        font-size: 2.5rem;
+    }
+    .section3CardImg{
+        width: 200px;
+        height: 230px;
+    }
+    .profile{
+        margin-top: 220px;
+    }
+    .circle{
+        height: 30px;
+       width: 30px;
+    }
+    .circleBorder{
+        height: 30px;
+       width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #section5{
+        gap: 300px;
+    }
+    footer{
+        gap: 400px;
+    }
+
+}
+@media (max-width:1400px) {
+    #section1 img{
+        top: 24vh;
+    }
+    #section3Cards{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+    #section3 h3{
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .date{
+        font-size: 0.8rem;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .blogPera{
+        font-size: 0.6rem;
+    }
+    footer{
+        gap: 250px;
+    }
+    #leftFooter ul{
+        gap: 15px;
+    }
+    #rightFooter ul{
+        gap: 15px;
+    }
+}
+@media (max-width:1300px) {
+    header{
+        gap: 250px;
+    }
+    #rightNav{
+        gap: 20px;
+    }
+    #rightNav ul{
+        gap: 20px;
+    }
+    #sectionTop h1{
+        font-size: 2.1rem;
+    }
+    #section2 h2{
+        font-size: 2.1rem;
+    }
+    #section5 h3{
+        font-size: 2.1rem;
+    }
+    #sectionTop{
+        padding-left: 12vw;
+    }
+    #sectionBottom{
+        padding-left: 12vw;
+    }
+   
+    #sectionTop p{
+        font-size: 0.95rem;
+    }
+    #sectionBottom p{
+        font-size: 1rem;
+    }
+    #section1 img{
+        top: 22vh;
+        width: 40vw;
+    }
+    #section5{
+        gap: 150px;
+    }
+    #btn2{
+        font-size: 1rem;
+        margin-left: -170px;
+    }
+    #section5Right input{
+        font-size: 1rem;
+        padding: 15px 300px 15px 40px;
+        border-radius: 40px;
+    }
+  
+}
+@media (max-width:1200px) {
+    #section1 img{
+        top: 25vh;
+        width: 40vw;
+    }
+    #section4Left{
+        padding: 50px 0px 0px 50px;
+    }
+}
+@media (max-width:1100px) {
+    #section1 img{
+        top: 28vh;
+        width: 40vw;
+    }
+    #sectionTop h1{
+        font-size: 1.8rem;
+    }
+    #section2 h2{
+        font-size: 1.8rem;
+    }
+    #section3 h3{
+        font-size: 1.8rem;
+    }
+    #section4Left h3{
+        font-size: 1.8rem;
+    }
+    #section4Pera{
+        font-size: 0.7rem;
+    }
+    #ques{
+        font-size: 1rem;
+    }
+  
+    
+    #sectionBottom{
+        gap: 20px;
+    }
+    
+    .see2{
+        margin-left: 0;
+        display: block;
+    }
+    .see1{
+        display: none;
+    }
+    #btn3{
+        font-size: 1rem;
+    }
+    footer{
+        padding: 50px;
+        gap: 150px;
+    }
+    #logo2{
+        width: 100px;
+    }
+    footer li{
+        font-size: 0.8rem;
+    }
+   
+}
+
+@media (max-width:940px) {
+    header{
+        gap: 20vw;
+    }
+    #logo{
+        padding-top: 0px;
+    }
+    #rightNav ul{
+        display: none;
+    }
+    #threeDot{
+        display: block;
+    }
+    .sign{
+        font-size: 0.8rem;
+    }
+    #sectionTop h1{
+        font-size: 1.5rem;
+    }
+    #section2 h2{
+        font-size: 1.8rem;
+    }
+    #sectionTop p{
+        font-size: 0.8rem;
+    }
+    #sectionBottom p{
+        font-size: 0.7rem;
+    }
+    #section1 img{
+        top: 25vh;
+        width: 44vw;
+    }
+    #sectionTop{
+        padding-left: 8vw;
+    }
+   
+    #sectionBottom{
+        padding-left: 8vw;
+    }
+        .cardContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 130px;
+    }
+    .cardHead{
+       text-align: center;
+       font-size: 1rem;
+    }
+    .cardPera{
+     text-align: center;
+     font-size: 0.7rem;
+    }
+
+    #section5{
+        gap: 200px;
+    }
+    #btn2{
+        font-size: 1rem;
+        margin-left: -170px;
+    }
+    #section5Right input{
+        padding: 15px 200px 15px 40px;
+    }
+    #section5 h3{
+        font-size: 1.5rem;
+    }
+    #section5{
+        padding: 50px;
+    }
+
+
+}
+@media (max-width:840px){
+    #section1 img{
+        top: 28vh;
+        width: 46vw;
+    }
+    #sectionTop{
+        padding-left: 3.5vw;
+    }
+    #sectionBottom{
+        padding-left: 3.5vw;
+    }
+    #section5{
+        gap: 50px;
+    }
+    #leftFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    Footer li{
+        font-size: 1rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    #rightFooter{
+        align-items: center;
+    }
+
+}
+@media (max-width:720px) {
+    header{
+        gap: 10vw;
+    }
+    #logo{
+        width: 100px;
+    }
+    #section1 img{
+        display: none;
+    }
+    #sectionTop:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 0vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 49%;
+        opacity: 0.1;
+        background-image: url(img/coding);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;
+      }
+    #sectionTop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }  
+    #sectionBottom{
+        display: flex;
+        justify-content: center;
+    }  
+    #sectionTop hr{
+     display: none;
+    }  
+    #sectionTop h1{
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+    #section2 h2{
+        font-size: 1.5rem;
+    }
+    #sectionTop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    #sectionBottom p{
+        font-size: 1rem;        
+    }
+    #sectionBottom{
+        gap: 40px;
+    }
+    #section2 h2{
+        font-size: 2rem;
+    }
+    #section4Left {
+        padding: 10px 0px 0px 50px;
+    }
+    #section4Left h3{
+        font-size: 1.5rem;
+    }
+    #section4Pera{
+        font-size: 0.7rem;
+    }
+    #ques{
+        font-size: 0.8rem;
+    }
+    #lens{
+        display: none;
+    }
+    #section4{
+        background: url(img/lens.png);
+        background-size: cover;
+    }
+    #section4Left{
+        width: 100%;
+    }
+    #section5{
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+
+}
+@media (max-width:540px) {
+    #sectionTop h1{
+        font-size: 1.3rem;
+    }
+    #sectionTop p{
+        font-size: 0.5rem;
+    }
+    #sectionTop{
+        height: 25vh;
+    }
+    #sectionTop:before {
+        height: 34%;
+    }
+    #sectionBottom p{
+        font-size: 0.8rem;        
+    }
+    #sectionBottom{
+        gap: 20px;
+    }
+    #section2 h2{
+        font-size: 1.5rem;
+    }
+    .section3CardImg{
+        width: 120px;
+        height: 160px;
+    }
+    .profile{
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+ 
+    #section3Cards{
+        gap: 100px;
+    }
+    .date{
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+    }
+    .title{
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    .blogPera{
+        font-size: 0.6rem;
+    }
+    .section3CardDetail{
+        padding-left: 10px;
+    }
+    .profileName{
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+    .blogPera{
+        font-size: 0.4rem;
+    }
+    .circle{
+        height: 15px;
+        width: 15px;
+    }
+    .circleBorder{
+        height: 15px;
+        width: 15px;
+    }
+   footer li{
+    font-size: 0.7rem;
+   }
+   footer p{
+    font-size: 0.7rem;
+   }
+   footer{
+    padding: 50px 20px 50px 20px;
+   }
+}
+@media (max-width:480px) {
+    #logo{
+        width: 70px;
+    }
+    header{
+        gap: 10vw;
+    }
+    #threeDot{
+        margin-right: 80px;
+    }
+    .sign{
+        font-size: 0.6rem;
+        padding: 5px 10px 5px 10px;
+    }
+    #rightNav{
+        gap: 10px;
+    }
+    #section4Left{
+        padding: 50px 0px 0px 20px;
+    }
+    #section5Right input{
+        font-size: 0.6rem;
+    }
+    #btn2{
+        font-size: 0.6rem;
+        margin-left: -130px;
+    }
+}
